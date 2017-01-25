@@ -1,0 +1,124 @@
+cbench: controller benchmarking tool
+   running in mode 'throughput'
+   connecting to controller at 192.168.3.33:6653 
+   faking 4 switches with 4 threads :: 105 tests each; 10000 ms per test
+   with 32 unique source MACs per switch
+   learning destination mac addresses before the test
+   starting test with 1000 ms delay after features_reply
+   ignoring first 5 "warmup" and last 0 "cooldown" loops
+   debugging info is off
+Master Thread: Creating thread-0! 
+Master Thread: Creating thread-1! 
+Master Thread: Creating thread-2! 
+Master Thread: Creating thread-3! 
+Thread-0: All switches initialized. Running at node 192.168.3.33. So far 1 cbench instances have initialized their switches.  Waiting for other cbench-instances
+Thread-1: All switches initialized. Running at node 192.168.3.33. So far 2 cbench instances have initialized their switches.  Waiting for other cbench-instances
+Thread-2: All switches initialized. Running at node 192.168.3.33. So far 3 cbench instances have initialized their switches.  Waiting for other cbench-instances
+Thread-3: All switches initialized. Running at node 192.168.3.33. So far 4 cbench instances have initialized their switches.  Waiting for other cbench-instances
+Thread-3: Total switches from ALL cbench-instances initialized.
+21:45:42.750 4   switches: flows:  478770 414314 413461 413479  total = 172.002400 per ms 
+21:45:52.865 4   switches: flows:  517761 457338 410752 458286  total = 182.319830 per ms 
+21:46:02.976 4   switches: flows:  516166 431795 421992 447567  total = 179.754852 per ms 
+21:46:13.085 4   switches: flows:  511504 434779 407652 434779  total = 176.943687 per ms 
+21:46:23.207 4   switches: flows:  496524 395091 427163 389605  total = 168.784897 per ms 
+21:46:33.323 4   switches: flows:  502493 396417 447567 408435  total = 173.480440 per ms 
+21:46:43.438 4   switches: flows:  491704 417878 447567 434780  total = 177.152878 per ms 
+21:46:53.549 4   switches: flows:  492030 421992 429684 443369  total = 176.752214 per ms 
+21:47:03.662 4   switches: flows:  484618 434802 409205 434780  total = 174.366842 per ms 
+21:47:13.770 4   switches: flows:  511505 453358 409204 439668  total = 179.445608 per ms 
+21:47:23.880 4   switches: flows:  506374 434779 396417 434779  total = 175.309667 per ms 
+21:47:33.990 4   switches: flows:  485930 437474 442193 446259  total = 179.208837 per ms 
+21:47:44.104 4   switches: flows:  511504 409204 358054 358055  total = 161.836697 per ms 
+21:47:54.218 4   switches: flows:  524292 434780 409204 413607  total = 176.178352 per ms 
+21:48:04.328 4   switches: flows:  498774 409205 433155 432191  total = 175.413494 per ms 
+21:48:14.440 4   switches: flows:  511504 435013 420505 434780  total = 178.183229 per ms 
+21:48:24.545 4   switches: flows:  511505 415022 447567 447567  total = 180.271037 per ms 
+21:48:34.665 4   switches: flows:  498718 421992 396417 421992  total = 171.847326 per ms 
+21:48:44.775 4   switches: flows:  491249 409204 438308 446300  total = 176.569364 per ms 
+21:48:54.890 4   switches: flows:  460354 396418 396417 380278  total = 161.485116 per ms 
+21:49:05.004 4   switches: flows:  509198 421992 426317 422104  total = 175.962344 per ms 
+21:49:15.115 4   switches: flows:  465676 319691 443862 319692  total = 153.195051 per ms 
+21:49:25.242 4   switches: flows:  439274 444098 409205 396417  total = 166.786383 per ms 
+21:49:35.355 4   switches: flows:  398144 370842 396417 332479  total = 148.116600 per ms 
+21:49:45.464 4   switches: flows:  332480 434780 306904 454485  total = 151.211299 per ms 
+21:49:55.575 4   switches: flows:  447566 419085 434779 447567  total = 172.982877 per ms 
+21:50:05.688 4   switches: flows:  507933 421992 434780 442200  total = 178.667696 per ms 
+21:50:15.805 4   switches: flows:  316082 447567 421992 306904  total = 147.537663 per ms 
+21:50:25.914 4   switches: flows:  498717 409205 393190 409204  total = 169.186453 per ms 
+21:50:36.025 4   switches: flows:  520642 356839 447566 370842  total = 167.728307 per ms 
+21:50:46.132 4   switches: flows:  511504 434779 433115 447567  total = 180.753973 per ms 
+21:50:56.247 4   switches: flows:  485930 434780 433235 437980  total = 177.159611 per ms 
+21:51:06.353 4   switches: flows:  524292 421991 421992 421992  total = 177.161701 per ms 
+21:51:16.475 4   switches: flows:  498716 434779 421992 444678  total = 177.841463 per ms 
+21:51:26.585 4   switches: flows:  509921 407860 434780 409204  total = 174.262350 per ms 
+21:51:36.694 4   switches: flows:  447567 396416 348023 358054  total = 153.325749 per ms 
+21:51:46.800 4   switches: flows:  485930 436688 409204 409205  total = 172.293242 per ms 
+21:51:56.909 4   switches: flows:  473142 434780 421992 434779  total = 174.561673 per ms 
+21:52:07.017 4   switches: flows:  478766 434779 422147 459022  total = 177.544088 per ms 
+21:52:17.130 4   switches: flows:  370842 345267 409204 447567  total = 155.538149 per ms 
+21:52:27.245 4   switches: flows:  473142 446896 383629 396417  total = 168.083558 per ms 
+21:52:37.361 4   switches: flows:  507435 396417 390294 446245  total = 172.042546 per ms 
+21:52:47.476 4   switches: flows:  511505 398119 434780 447567  total = 177.157643 per ms 
+21:52:57.600 4   switches: flows:  515263 409205 446313 447567  total = 179.600072 per ms 
+21:53:07.718 4   switches: flows:  511504 396416 447566 447567  total = 178.212797 per ms 
+21:53:17.831 4   switches: flows:  509699 417293 434780 446165  total = 178.779004 per ms 
+21:53:27.948 4   switches: flows:  473142 410694 435509 446244  total = 174.508495 per ms 
+21:53:38.061 4   switches: flows:  434780 373927 435964 409205  total = 163.550001 per ms 
+21:53:48.165 4   switches: flows:  444961 439241 447567 380292  total = 169.435700 per ms 
+21:53:58.277 4   switches: flows:  396415 421992 447566 358055  total = 160.615439 per ms 
+21:54:08.389 4   switches: flows:  524292 421992 421993 418987  total = 176.733937 per ms 
+21:54:18.503 4   switches: flows:  473143 433056 437065 435461  total = 175.871365 per ms 
+21:54:28.629 4   switches: flows:  443045 435893 409204 436864  total = 170.357048 per ms 
+21:54:38.739 4   switches: flows:  397312 355503 358055 370842  total = 146.557818 per ms 
+21:54:48.854 4   switches: flows:  447567 358055 445888 345266  total = 157.861498 per ms 
+21:54:58.955 4   switches: flows:  337105 339818 435468 397877  total = 149.518946 per ms 
+21:55:09.073 4   switches: flows:  421992 424878 386696 421988  total = 163.625066 per ms 
+21:55:19.185 4   switches: flows:  367090 383629 383629 446242  total = 156.314190 per ms 
+21:55:29.299 4   switches: flows:  522902 332505 447567 345267  total = 162.965189 per ms 
+21:55:39.413 4   switches: flows:  511505 398400 370842 331355  total = 159.392898 per ms 
+21:55:49.525 4   switches: flows:  518165 409204 440476 434779  total = 178.275819 per ms 
+21:55:59.640 4   switches: flows:  498718 416123 421992 421992  total = 173.885942 per ms 
+21:56:09.761 4   switches: flows:  485930 421992 407577 396417  total = 169.143359 per ms 
+21:56:19.880 4   switches: flows:  467302 421992 421991 459139  total = 174.953559 per ms 
+21:56:29.989 4   switches: flows:  485927 294266 370842 383629  total = 151.820289 per ms 
+21:56:40.095 4   switches: flows:  522294 409201 417558 421992  total = 175.235317 per ms 
+21:56:50.208 4   switches: flows:  511377 441662 383632 396421  total = 171.380721 per ms 
+21:57:00.319 4   switches: flows:  508114 370842 409205 446112  total = 171.524883 per ms 
+21:57:10.433 4   switches: flows:  511504 414779 433402 447567  total = 178.687678 per ms 
+21:57:20.547 4   switches: flows:  511504 434780 407836 446339  total = 178.012622 per ms 
+21:57:30.675 4   switches: flows:  511505 434778 434780 457773  total = 181.565822 per ms 
+21:57:40.789 4   switches: flows:  409204 369545 434779 447567  total = 164.241694 per ms 
+21:57:50.901 4   switches: flows:  394931 358054 424943 458999  total = 161.871260 per ms 
+21:58:01.014 4   switches: flows:  496693 429652 409204 447567  total = 176.335304 per ms 
+21:58:11.121 4   switches: flows:  511773 421991 446057 421985  total = 178.269462 per ms 
+21:58:21.228 4   switches: flows:  381595 421731 437102 332480  total = 155.617384 per ms 
+21:58:31.344 4   switches: flows:  511505 426301 434771 409204  total = 176.141638 per ms 
+21:58:41.457 4   switches: flows:  483880 431061 422200 446345  total = 176.357925 per ms 
+21:58:51.572 4   switches: flows:  516322 433418 434779 409205  total = 177.339083 per ms 
+21:59:01.685 4   switches: flows:  498717 434780 447567 434779  total = 179.560634 per ms 
+21:59:11.795 4   switches: flows:  511505 421991 434780 446202  total = 179.469543 per ms 
+21:59:21.912 4   switches: flows:  504861 421992 361086 369542  total = 163.836375 per ms 
+21:59:32.025 4   switches: flows:  502016 432875 382082 409204  total = 170.682350 per ms 
+21:59:42.137 4   switches: flows:  496066 423713 407797 409206  total = 171.758829 per ms 
+21:59:52.251 4   switches: flows:  498716 401374 442952 434780  total = 175.773374 per ms 
+22:00:02.361 4   switches: flows:  498717 434779 434779 446381  total = 179.499648 per ms 
+22:00:12.472 4   switches: flows:  498717 429936 447567 447567  total = 180.372650 per ms 
+22:00:22.587 4   switches: flows:  509333 409205 421992 434779  total = 175.511135 per ms 
+22:00:32.700 4   switches: flows:  473142 444387 445904 447567  total = 179.080615 per ms 
+22:00:42.811 4   switches: flows:  473142 447567 410181 421992  total = 173.370480 per ms 
+22:00:52.924 4   switches: flows:  498717 421992 419215 447567  total = 176.753745 per ms 
+22:01:03.039 4   switches: flows:  497211 445039 409726 447567  total = 177.898540 per ms 
+22:01:13.154 4   switches: flows:  473725 421992 421992 434780  total = 173.270686 per ms 
+22:01:23.280 4   switches: flows:  419842 429646 421992 394833  total = 164.559187 per ms 
+22:01:33.404 4   switches: flows:  485930 447567 434780 421992  total = 176.833737 per ms 
+22:01:43.516 4   switches: flows:  498717 434779 421992 419627  total = 175.537024 per ms 
+22:01:53.632 4   switches: flows:  510266 433299 430288 421988  total = 177.532639 per ms 
+22:02:03.746 4   switches: flows:  434779 447566 382162 322286  total = 156.895011 per ms 
+22:02:13.869 4   switches: flows:  358056 447567 447567 325786  total = 155.979890 per ms 
+22:02:23.981 4   switches: flows:  505764 446099 447567 413556  total = 179.293737 per ms 
+22:02:34.093 4   switches: flows:  506799 396417 434779 434779  total = 175.311561 per ms 
+22:02:44.204 4   switches: flows:  465875 434780 427132 446253  total = 175.446543 per ms 
+22:02:54.317 4   switches: flows:  396417 294116 370841 457841  total = 150.235557 per ms 
+22:03:04.432 4   switches: flows:  484454 354482 370842 434781  total = 162.579457 per ms 
+22:03:14.544 4   switches: flows:  343599 306905 447567 454836  total = 153.580003 per ms 
+RESULT: 4 switches 100 tests min/max/avg/stdev = 146557.82/181565.82/170417.84/19446.03 responses/s

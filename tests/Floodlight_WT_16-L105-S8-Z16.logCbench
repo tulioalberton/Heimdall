@@ -1,0 +1,41 @@
+cbench: controller benchmarking tool
+   running in mode 'throughput'
+   connecting to controller at 192.168.3.33:6653 
+   faking 128 switches with 16 threads :: 105 tests each; 10000 ms per test
+   with 32 unique source MACs per switch
+   learning destination mac addresses before the test
+   starting test with 1000 ms delay after features_reply
+   ignoring first 5 "warmup" and last 0 "cooldown" loops
+   debugging info is off
+Master Thread: Creating thread-0! 
+Master Thread: Creating thread-1! 
+Master Thread: Creating thread-2! 
+Master Thread: Creating thread-3! 
+Master Thread: Creating thread-4! 
+Master Thread: Creating thread-5! 
+Master Thread: Creating thread-6! 
+Master Thread: Creating thread-7! 
+Master Thread: Creating thread-8! 
+Master Thread: Creating thread-9! 
+Master Thread: Creating thread-10! 
+Master Thread: Creating thread-11! 
+Master Thread: Creating thread-12! 
+Master Thread: Creating thread-13! 
+Master Thread: Creating thread-14! 
+Master Thread: Creating thread-15! 
+Thread-5: All switches initialized. Running at node 192.168.3.33. So far 1 cbench instances have initialized their switches.  Waiting for other cbench-instances
+Thread-10: All switches initialized. Running at node 192.168.3.33. So far 2 cbench instances have initialized their switches.  Waiting for other cbench-instances
+Thread-9: All switches initialized. Running at node 192.168.3.33. So far 3 cbench instances have initialized their switches.  Waiting for other cbench-instances
+Thread-8: All switches initialized. Running at node 192.168.3.33. So far 4 cbench instances have initialized their switches.  Waiting for other cbench-instances
+Thread-15: All switches initialized. Running at node 192.168.3.33. So far 5 cbench instances have initialized their switches.  Waiting for other cbench-instances
+Thread-7: All switches initialized. Running at node 192.168.3.33. So far 6 cbench instances have initialized their switches.  Waiting for other cbench-instances
+Thread-6: All switches initialized. Running at node 192.168.3.33. So far 7 cbench instances have initialized their switches.  Waiting for other cbench-instances
+Thread-0: All switches initialized. Running at node 192.168.3.33. So far 8 cbench instances have initialized their switches.  Waiting for other cbench-instances
+Thread-3: All switches initialized. Running at node 192.168.3.33. So far 9 cbench instances have initialized their switches.  Waiting for other cbench-instances
+Thread-14: All switches initialized. Running at node 192.168.3.33. So far 10 cbench instances have initialized their switches.  Waiting for other cbench-instances
+Thread-2: All switches initialized. Running at node 192.168.3.33. So far 11 cbench instances have initialized their switches.  Waiting for other cbench-instances
+Thread-4: All switches initialized. Running at node 192.168.3.33. So far 12 cbench instances have initialized their switches.  Waiting for other cbench-instances
+Thread-1: All switches initialized. Running at node 192.168.3.33. So far 13 cbench instances have initialized their switches.  Waiting for other cbench-instances
+Thread-12: All switches initialized. Running at node 192.168.3.33. So far 14 cbench instances have initialized their switches.  Waiting for other cbench-instances
+controller msgbuf_read() = -1:  msgbuf_read: Connection reset by peer
+... exiting
