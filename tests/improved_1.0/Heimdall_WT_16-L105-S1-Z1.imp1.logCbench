@@ -1,0 +1,118 @@
+cbench: controller benchmarking tool
+   running in mode 'throughput'
+   connecting to controller at 192.168.3.33:6653 
+   faking 1 switches with 1 threads :: 105 tests each; 10000 ms per test
+   with 32 unique source MACs per switch
+   learning destination mac addresses before the test
+   starting test with 1000 ms delay after features_reply
+   ignoring first 5 "warmup" and last 0 "cooldown" loops
+   debugging info is off
+Master Thread: Creating thread-0! 
+Thread-0: All switches initialized. Running at node 192.168.3.33. So far 1 cbench instances have initialized their switches.  Waiting for other cbench-instances
+Thread-0: Total switches from ALL cbench-instances initialized.
+15:08:57.735 1   switches: flows:  477324  total = 47.732400 per ms 
+15:09:07.836 1   switches: flows:  503127  total = 49.812675 per ms 
+15:09:17.946 1   switches: flows:  449245  total = 44.431761 per ms 
+15:09:28.062 1   switches: flows:  541519  total = 53.535815 per ms 
+15:09:38.173 1   switches: flows:  507904  total = 50.232518 per ms 
+15:09:48.285 1   switches: flows:  495515  total = 49.003198 per ms 
+15:09:58.385 1   switches: flows:  507908  total = 50.284137 per ms 
+15:10:08.491 1   switches: flows:  495517  total = 49.035955 per ms 
+15:10:18.604 1   switches: flows:  495516  total = 48.997890 per ms 
+15:10:28.715 1   switches: flows:  507904  total = 50.232870 per ms 
+15:10:38.817 1   switches: flows:  495520  total = 49.048566 per ms 
+15:10:48.918 1   switches: flows:  508870  total = 50.378879 per ms 
+15:10:59.020 1   switches: flows:  509015  total = 50.392191 per ms 
+15:11:09.120 1   switches: flows:  518951  total = 51.379751 per ms 
+15:11:19.221 1   switches: flows:  510283  total = 50.519228 per ms 
+15:11:29.326 1   switches: flows:  507904  total = 50.262657 per ms 
+15:11:39.429 1   switches: flows:  507904  total = 50.272761 per ms 
+15:11:49.529 1   switches: flows:  492495  total = 48.759289 per ms 
+15:11:59.630 1   switches: flows:  507904  total = 50.282701 per ms 
+15:12:09.731 1   switches: flows:  510930  total = 50.581865 per ms 
+15:12:19.839 1   switches: flows:  508310  total = 50.290214 per ms 
+15:12:29.940 1   switches: flows:  513857  total = 50.874271 per ms 
+15:12:40.046 1   switches: flows:  520292  total = 51.483139 per ms 
+15:12:50.150 1   switches: flows:  507904  total = 50.263866 per ms 
+15:13:00.263 1   switches: flows:  520292  total = 51.451319 per ms 
+15:13:10.373 1   switches: flows:  516227  total = 51.060291 per ms 
+15:13:20.484 1   switches: flows:  507904  total = 50.231236 per ms 
+15:13:30.594 1   switches: flows:  507904  total = 50.237839 per ms 
+15:13:40.705 1   switches: flows:  517698  total = 51.204254 per ms 
+15:13:50.814 1   switches: flows:  507908  total = 50.242424 per ms 
+15:14:00.924 1   switches: flows:  518436  total = 51.280514 per ms 
+15:14:11.029 1   switches: flows:  507904  total = 50.263851 per ms 
+15:14:21.131 1   switches: flows:  507904  total = 50.277912 per ms 
+15:14:31.231 1   switches: flows:  516532  total = 51.138780 per ms 
+15:14:41.333 1   switches: flows:  520292  total = 51.504284 per ms 
+15:14:51.441 1   switches: flows:  507904  total = 50.251473 per ms 
+15:15:01.555 1   switches: flows:  518720  total = 51.287588 per ms 
+15:15:11.661 1   switches: flows:  520297  total = 51.480226 per ms 
+15:15:21.770 1   switches: flows:  520291  total = 51.469987 per ms 
+15:15:31.874 1   switches: flows:  520292  total = 51.493691 per ms 
+15:15:41.978 1   switches: flows:  524921  total = 51.951529 per ms 
+15:15:52.079 1   switches: flows:  507908  total = 50.284769 per ms 
+15:16:02.189 1   switches: flows:  520291  total = 51.462493 per ms 
+15:16:12.290 1   switches: flows:  516358  total = 51.120966 per ms 
+15:16:22.399 1   switches: flows:  520291  total = 51.465710 per ms 
+15:16:32.500 1   switches: flows:  508981  total = 50.389973 per ms 
+15:16:42.604 1   switches: flows:  520291  total = 51.492976 per ms 
+15:16:52.710 1   switches: flows:  507904  total = 50.261011 per ms 
+15:17:02.810 1   switches: flows:  521528  total = 51.632826 per ms 
+15:17:12.911 1   switches: flows:  520296  total = 51.512063 per ms 
+15:17:23.021 1   switches: flows:  520292  total = 51.462332 per ms 
+15:17:33.127 1   switches: flows:  520292  total = 51.485926 per ms 
+15:17:43.237 1   switches: flows:  520291  total = 51.461429 per ms 
+15:17:53.348 1   switches: flows:  503672  total = 49.816981 per ms 
+15:18:03.454 1   switches: flows:  520293  total = 51.484466 per ms 
+15:18:13.559 1   switches: flows:  520293  total = 51.486865 per ms 
+15:18:23.663 1   switches: flows:  507904  total = 50.268030 per ms 
+15:18:33.785 1   switches: flows:  516413  total = 51.017585 per ms 
+15:18:43.897 1   switches: flows:  507904  total = 50.228489 per ms 
+15:18:54.002 1   switches: flows:  507904  total = 50.264070 per ms 
+15:19:04.115 1   switches: flows:  520292  total = 51.448618 per ms 
+15:19:14.220 1   switches: flows:  518452  total = 51.303766 per ms 
+15:19:24.327 1   switches: flows:  520292  total = 51.479777 per ms 
+15:19:34.431 1   switches: flows:  507904  total = 50.267144 per ms 
+15:19:44.543 1   switches: flows:  495516  total = 49.005686 per ms 
+15:19:54.644 1   switches: flows:  508747  total = 50.365380 per ms 
+15:20:04.745 1   switches: flows:  520291  total = 51.507734 per ms 
+15:20:14.847 1   switches: flows:  507904  total = 50.277723 per ms 
+15:20:24.958 1   switches: flows:  517055  total = 51.139544 per ms 
+15:20:35.058 1   switches: flows:  519490  total = 51.433360 per ms 
+15:20:45.171 1   switches: flows:  520292  total = 51.450694 per ms 
+15:20:55.282 1   switches: flows:  507904  total = 50.233347 per ms 
+15:21:05.386 1   switches: flows:  520292  total = 51.493559 per ms 
+15:21:15.496 1   switches: flows:  520296  total = 51.459964 per ms 
+15:21:25.601 1   switches: flows:  520291  total = 51.489821 per ms 
+15:21:35.707 1   switches: flows:  507904  total = 50.260469 per ms 
+15:21:45.813 1   switches: flows:  507904  total = 50.256376 per ms 
+15:21:55.921 1   switches: flows:  520295  total = 51.475082 per ms 
+15:22:06.040 1   switches: flows:  518275  total = 51.217955 per ms 
+15:22:16.148 1   switches: flows:  518713  total = 51.318812 per ms 
+15:22:26.252 1   switches: flows:  518454  total = 51.311357 per ms 
+15:22:36.362 1   switches: flows:  520296  total = 51.464637 per ms 
+15:22:46.463 1   switches: flows:  496888  total = 49.191323 per ms 
+15:22:56.573 1   switches: flows:  507904  total = 50.237700 per ms 
+15:23:06.680 1   switches: flows:  518371  total = 51.289188 per ms 
+15:23:16.791 1   switches: flows:  520297  total = 51.457335 per ms 
+15:23:26.901 1   switches: flows:  520291  total = 51.460610 per ms 
+15:23:37.014 1   switches: flows:  507904  total = 50.227784 per ms 
+15:23:47.115 1   switches: flows:  518383  total = 51.317921 per ms 
+15:23:57.223 1   switches: flows:  520296  total = 51.475609 per ms 
+15:24:07.333 1   switches: flows:  520291  total = 51.460584 per ms 
+15:24:17.434 1   switches: flows:  519442  total = 51.425481 per ms 
+15:24:27.544 1   switches: flows:  520293  total = 51.462599 per ms 
+15:24:37.646 1   switches: flows:  520295  total = 51.505529 per ms 
+15:24:47.747 1   switches: flows:  514881  total = 50.975803 per ms 
+15:24:57.850 1   switches: flows:  520292  total = 51.499165 per ms 
+15:25:07.959 1   switches: flows:  520292  total = 51.464541 per ms 
+15:25:18.061 1   switches: flows:  518429  total = 51.320656 per ms 
+15:25:28.162 1   switches: flows:  517092  total = 51.192382 per ms 
+15:25:38.264 1   switches: flows:  520293  total = 51.503062 per ms 
+15:25:48.371 1   switches: flows:  507904  total = 50.254625 per ms 
+15:25:58.479 1   switches: flows:  520297  total = 51.472281 per ms 
+15:26:08.589 1   switches: flows:  520291  total = 51.463363 per ms 
+15:26:18.694 1   switches: flows:  520292  total = 51.491892 per ms 
+15:26:28.800 1   switches: flows:  517730  total = 51.229141 per ms 
+RESULT: 1 switches 100 tests min/max/avg/stdev = 48759.29/51951.53/50858.09/5139.20 responses/s
