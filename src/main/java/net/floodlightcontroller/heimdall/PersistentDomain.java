@@ -75,7 +75,6 @@ public class PersistentDomain implements Watcher {
 	private boolean masterLeader=false;
 	// ZooKeeper needs
 	private String zkHostPort = "192.168.1.100:2181";// default
-	//private String zkHostPort = "192.168.3.32:2181";// default
 	private int zkTimeout = 1000;// ms
 	private ZooKeeper zk;
 	private ZKGlobalMonitor zkGM;
