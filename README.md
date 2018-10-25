@@ -1,13 +1,15 @@
 # Heimdall
 
 
-## Heimdall initialization (Controller 1)
+## Heimdall initialization 
+
+#### Controller 1
 $bash heimdall.sh src/main/resources/heimdallDefault.properties
 
-## Controller 2
+#### Controller 2
 $bash heimdall.sh src/main/resources/heimdallDefault2.properties
 
-## Controller 3 
+#### Controller 3 
 $bash heimdall.sh src/main/resources/heimdallDefault3.properties
 
 ## Mininet initialization
