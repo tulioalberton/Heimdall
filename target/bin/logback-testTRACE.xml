@@ -1,0 +1,79 @@
+ 
+<configuration scan="true">
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>%d{HH:mm:ss.SSS} %level [%logger{20}:%thread] %msg%n</pattern>
+    </encoder>
+  </appender>
+  <root level="INFO">
+    <appender-ref ref="STDOUT" />
+    <appender-ref ref="EV_WARN_ERR" />
+  </root>
+  <logger name="org" level="INFO"/>
+  <logger name="io" level="INFO"></logger> <!-- Netty logging -->
+  <logger name="LogService" level="INFO"></logger> <!-- Restlet access logging -->
+  <logger name="net.floodlightcontroller" level="INFO"/>
+  <logger name="org.sdnplatform" level="INFO"></logger>
+  
+  
+  
+  <!--
+	
+	<logger name="net.floodlightcontroller.devicemanager" INFO="INFO"></logger>
+  <logger name="net.floodlightcontroller.devicemanager.internal.DeviceManagerImpl" level="DEBUG"></logger>
+  
+  <logger name="net.floodlightcontroller.linkdiscovery" level="INFO"></logger>
+  <logger name="net.floodlightcontroller.linkdiscovery.internal.LinkDiscoveryManager" level="INFO"></logger>
+  
+  <logger name="net.floodlightcontroller.forwarding.Forwarding" level="INFO"></logger>
+  <logger name="net.floodlightcontroller.forwarding.ForwardingBase" level="INFO"></logger>
+  
+  <logger name="net.floodlightcontroller.learningswitch.LearningSwitch" level="INFO"></logger>
+  
+  
+  <logger name="net.floodlightcontroller.topology" level="INFO" ></logger>
+  <logger name="net.floodlightcontroller.topology.TopologyInstance" level="INFO" ></logger>
+  <logger name="net.floodlightcontroller.topology.TopologyManager" level="TRACE" ></logger>
+  
+  <logger name="org.projectfloodlight.openflow" level="INFO" ></logger>
+  <logger name="net.floodlightcontroller.core.internal.OFSwitchManager" level="DEBUG"></logger>
+  <logger name="net.floodlightcontroller.core.internal.OFSwitchHandshakeHandler" level="INFO"></logger>
+  <logger name="net.floodlightcontroller.core.internal.OFChannelHandler" level="INFO"></logger>
+  <logger name="net.floodlightcontroller.core.internal.Controller" level="TRACE"></logger>
+  
+  <logger name="net.floodlightcontroller.staticentry.StaticEntries" level="INFO"></logger>
+  <logger name="net.floodlightcontroller.staticentry.StaticEntryPusher" level="INFO"></logger>
+  
+  <logger name="net.floodlightcontroller.simpleft.FT" level="INFO"></logger>
+  <logger name="net.floodlightcontroller.virtualnetwork.VirtualNetworkFilter" level="INFO"></logger>  
+  
+  <logger name="net.floodlightcontroller.loadbalancer.LoadBalancer" level="INFO" ></logger>
+  
+  <logger name="net.floodlightcontroller.statistics.StatisticsCollector" level="INFO"></logger>
+  <logger name="net.floodlightcontroller.accesscontrollist.ACL" level="TRACE"></logger>
+    
+  <logger name="org.apache.zookeeper.Zookeeper" level="INFO"></logger>
+   
+     -->
+  <logger name="net.floodlightcontroller.durable.PersistentDomain" level="INFO"></logger>
+  <logger name="net.floodlightcontroller.durable.Tar" level="TRACE"></logger>
+  <logger name="net.floodlightcontroller.durable.tracing.json.JsonConvertions" level="INFO"></logger>
+    <logger name="net.floodlightcontroller.durable.TracePacketIn" level="TRACE"></logger>
+  <logger name="net.floodlightcontroller.durable.zkMonitor.ZKGlobalMonitor" level="TRACE"></logger>
+  <logger name="net.floodlightcontroller.durable.heuristicLatency.HeuristicCentralized" level="TRACE"></logger>
+  <logger name="net.floodlightcontroller.durable.modulesRecover.RecoverLinkDiscovery" level="INFO"></logger>
+  <logger name="net.floodlightcontroller.durable.modulesRecover.RecoverDeviceManager" level="INFO"></logger>
+  <logger name="net.floodlightcontroller.asserttest.CounterSemTrace" level="TRACE"></logger>
+  
+  <logger name="net.floodlightcontroller.durable.tracing.ArrayListTracing" level="TRACE"></logger>
+  <logger name="net.floodlightcontroller.durable.tracing.ConcurrentHashMapTracing" level="TRACE"></logger>
+  <logger name="net.floodlightcontroller.durable.tracing.HashMapTracing" level="TRACE"></logger>
+  <logger name="net.floodlightcontroller.durable.tracing.HashSetTracing" level="TRACE"></logger>
+  <logger name="net.floodlightcontroller.durable.tracing.LinkedListTracing" level="TRACE"></logger>
+  <logger name="net.floodlightcontroller.durable.tracing.ListTracing" level="TRACE"></logger>
+  <logger name="net.floodlightcontroller.durable.tracing.MapTracing" level="TRACE"></logger>
+  
+  <logger name="net.floodlightcontroller.durable.heuristicLatency.HeuristicCentralized" level="TRACE"></logger>
+  
+
+</configuration>

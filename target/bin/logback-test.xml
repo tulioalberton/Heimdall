@@ -1,0 +1,57 @@
+<configuration scan="true">
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>%d{HH:mm:ss.SSS} %level [%logger{20}:%thread]\t%msg%n</pattern>
+    </encoder>
+  </appender>
+  <root level="INFO">
+    <appender-ref ref="STDOUT" />
+    <appender-ref ref="EV_WARN_ERR" />
+  </root>
+  <logger name="org" level="INFO"/>
+  <logger name="io" level="INFO"></logger> <!-- Netty logging -->
+  <logger name="LogService" level="WARN"></logger> <!-- Restlet access logging -->
+  <logger name="net.floodlightcontroller" level="INFO"/>
+  <logger name="org.sdnplatform" level="INFO"></logger>
+
+
+<!--
+
+<logger name="net.floodlightcontroller.core.internal.Controller" level="DEBUG"></logger>
+
+<logger name="net.floodlightcontroller.heimdall.tracing.MapTracing" level="DEBUG"></logger>
+
+<logger name="net.floodlightcontroller.heimdall.PersistentDomain" level="DEBUG"></logger>
+
+
+
+<logger name="net.floodlightcontroller.heimdall.test.Z1" level="TRACE"></logger>
+
+<logger name="net.floodlightcontroller.linkdiscovery.internal.LinkDiscoveryManager" level="INFO"></logger>
+
+<logger name="net.floodlightcontroller.core.internal.OFSwitch" level="DEBUG"></logger>
+<logger name="net.floodlightcontroller.core.internal.OFSwitchHandshakeHandler" level="DEBUG"></logger>
+<logger name="net.floodlightcontroller.core.internal.OFChannelHandler" level="DEBUG"></logger>
+<logger name="net.floodlightcontroller.heimdall.TracePacketIn" level="DEBUG"></logger>
+<logger name="net.floodlightcontroller.forwarding.Forwarding" level="DEBUG"></logger>
+<logger name="net.floodlightcontroller.routing.ForwardingBase" level="DEBUG"></logger>
+
+<logger name="net.floodlightcontroller.heimdall.ConflictResolution" level="TRACE"></logger>
+<logger name="net.floodlightcontroller.heimdall.tracing.HashSetTracing" level="TRACE"></logger>
+<logger name="net.floodlightcontroller.heimdall.zkMonitor.ZKGlobalMonitor" level="DEBUG"></logger>
+<logger name="net.floodlightcontroller.linkdiscovery.internal.LinkInfo" level="DEBUG"></logger>
+<logger name="net.floodlightcontroller.heimdall.Tar" level="DEBUG"></logger>
+
+
+<logger name="net.floodlightcontroller.heimdall.zkMonitor.ZKGlobalMonitor" level="DEBUG"></logger>
+<logger name="net.floodlightcontroller.heimdall.tracing.ConcurrentHashMapTracing" level="TRACE"></logger>
+<logger name="net.floodlightcontroller.heimdall.heuristicLatency.HeuristicCentralized" level="DEBUG"></logger>
+<logger name="net.floodlightcontroller.util.OFMessageDamper" level="INFO"></logger>
+<logger name="net.floodlightcontroller.core.internal.OFConnection" level="TRACE"></logger>
+<logger name="net.floodlightcontroller.topology.TopologyManager" level="DEBUG" ></logger>
+
+<logger name="net.floodlightcontroller.core.internal.OFSwitchManager" level="INFO"></logger>
+-->
+
+
+</configuration>
