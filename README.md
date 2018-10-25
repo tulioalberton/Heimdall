@@ -1,7 +1,10 @@
-# Heimdall
+# Heimdall - A Distributed update aware SDN Controller.
+
+Heimdall is a Distributed SDN Controller which persist modules updates transparently. 
+It leverages from Java data structures to catch the uptades ant persist them using ZooKeeper Service. 
 
 
-## Heimdall initialization 
+## Heimdall initialization.
 
 #### Controller 1
 $bash heimdall.sh src/main/resources/heimdallDefault.properties
