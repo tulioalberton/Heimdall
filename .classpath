@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src/main/java" output="target/bin"/>
+	<classpathentry kind="src" output="target/bin" path="src/main/java"/>
 	<classpathentry kind="src" path="src/main/resources"/>
-        <classpathentry kind="src" path="src/test/java" output="target/bin-test"/>
+	<classpathentry kind="src" output="target/bin-test" path="src/test/java"/>
 	<classpathentry kind="src" path="src/test/resources"/>
-        <classpathentry kind="src" path="lib/gen-java" output="target/bin"/>
+	<classpathentry kind="src" output="target/bin" path="lib/gen-java"/>
 	<classpathentry exported="true" kind="lib" path="lib/args4j-2.0.16.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/cglib-nodep-2.2.2.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/concurrentlinkedhashmap-lru-1.2.jar"/>
@@ -30,7 +30,6 @@
 	<classpathentry exported="true" kind="lib" path="lib/libthrift-0.9.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/logback-classic-1.0.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/logback-core-1.0.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/netty-all-4.0.31.Final.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/objenesis-1.2.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/openflowj-3.0.0-SNAPSHOT-javadoc.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/openflowj-3.0.0-SNAPSHOT-sources.jar"/>
@@ -40,10 +39,11 @@
 	<classpathentry exported="true" kind="lib" path="lib/org.restlet.ext.jsslutils.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/org.restlet.ext.simple.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/org.restlet.ext.slf4j.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.restlet.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/org.simpleframework.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/slf4j-api-1.6.4.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/zookeeper-3.4.10.jar"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/org.restlet-2.3.12.jar"/>
+	<classpathentry kind="lib" path="lib/netty-all-4.0.31.Final.jar"/>
 	<classpathentry kind="output" path="target/bin"/>
 </classpath>

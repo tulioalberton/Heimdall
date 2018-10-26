@@ -128,7 +128,5 @@ public final class TestEventLoop extends AbstractScheduledEventExecutor implemen
         return this;
     }
 
-    public ImmutableList<Runnable> getQueuedTasks() {
-        return ImmutableList.copyOf(tasks);
-    }
+
 }
